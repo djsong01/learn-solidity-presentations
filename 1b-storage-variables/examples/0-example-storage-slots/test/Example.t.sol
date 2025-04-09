@@ -2,6 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
+import "forge-std/console.sol";
 import "../src/Example.sol";
 
 contract ExampleTest is Test {
@@ -11,5 +12,6 @@ contract ExampleTest is Test {
         example = new Example();
     }
 
-    function testExample() public view {}
+    function testExample() public view {
+    }
 }

@@ -8,6 +8,9 @@ contract A {
 
     constructor(address _b) payable {
         b = _b;
+        console.log(b);
+        console.log(msg.value);
+        console.log(address(this).balance);
     }
 
     function payHalf() external {
